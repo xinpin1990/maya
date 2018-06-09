@@ -48,7 +48,6 @@
     var t_rotate=PIXI.Texture.fromImage("data/pics/rotate.jpg");
     var rotate = new PIXI.Sprite(t_rotate);
    
-    alert("上联：山石岩下古木枯");
     rotate.visible=false;
     function resize()
     {
@@ -214,9 +213,10 @@
 		that.BALLS = new AVK_BALLS();
 		that.WND = "LIGHT";
 		that.LIGHT = new AVK_LIGHT();
-
+    
         that.FPS = new PIXI.BitmapText("fps:", {font: "8px AVK_FNT_main", align: "left"});
         that.FPS.position.y=that.SCREEN_HEIGHT-15;
+		alert("上联：山石岩下古木枯");
         that.STAGE.addChild(that.FPS);
         f = 0;
         old_f = 0;
