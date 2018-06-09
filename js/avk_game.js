@@ -48,6 +48,7 @@
     var t_rotate=PIXI.Texture.fromImage("data/pics/rotate.jpg");
     var rotate = new PIXI.Sprite(t_rotate);
    
+    alert("上联：山石岩下古木枯");
     rotate.visible=false;
     function resize()
     {
