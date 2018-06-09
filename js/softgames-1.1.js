@@ -139,7 +139,7 @@ var SG = {
         case 'gamePause' :      d = {type: window.softgames.eventGamePause, state: data.state};	break;
         case 'gameRestart' :    d = {type: window.softgames.eventGameRestart};	break;
         case 'selectLevel' :    d = {type: window.softgames.eventSelectLevel, level: data.level};	break;
-        case 'selectMainMenu1' : d = {type: window.softgames.eventSelectMainMenu};	break;
+        case 'selectMainMenu12' : d = {type: window.softgames.eventSelectMainMenu};	break;
         case 'setSound' : d = {type: window.softgames.eventSound, state: data.state};	break;
 		}
 		
