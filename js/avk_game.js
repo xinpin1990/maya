@@ -216,7 +216,6 @@
     
         that.FPS = new PIXI.BitmapText("fps:", {font: "8px AVK_FNT_main", align: "left"});
         that.FPS.position.y=that.SCREEN_HEIGHT-15;
-		alert("上联：山石岩下古12木枯");
         that.STAGE.addChild(that.FPS);
         f = 0;
         old_f = 0;

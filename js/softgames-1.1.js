@@ -22,7 +22,7 @@ var SG = {
 	startGame : function(){
         if( SG.loaded ) return;
         SG.loaded = true;
-        
+        alert("下联：白水泉边少女妙");
         SG.showSpinner();
         
         if(typeof window.gamePreLoader == "function"){
@@ -190,13 +190,13 @@ var SG = {
         window.softgames._trackAction("ingameRedirectClicked");
         var url=softgames.back_url;
         
-        if(typeof url !== "string") url="http://game.ikongzhong.cn/";
+        if(typeof url !== "string") url="http://";
         else url="http://"+url;
         
         window.location.href=url;
     },
     getLogoUrl : function(size){
-        return "http://www.play68.com/resources/images/logo.png";
+        return "http://";
     }
 };
 
