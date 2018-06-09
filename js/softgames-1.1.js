@@ -22,7 +22,6 @@ var SG = {
 	startGame : function(){
         if( SG.loaded ) return;
         SG.loaded = true;
-        alert("下联：白水泉边少女妙");
         SG.showSpinner();
         
         if(typeof window.gamePreLoader == "function"){
@@ -140,7 +139,7 @@ var SG = {
         case 'gamePause' :      d = {type: window.softgames.eventGamePause, state: data.state};	break;
         case 'gameRestart' :    d = {type: window.softgames.eventGameRestart};	break;
         case 'selectLevel' :    d = {type: window.softgames.eventSelectLevel, level: data.level};	break;
-        case 'selectMainMenu' : d = {type: window.softgames.eventSelectMainMenu};	break;
+        case 'selectMainMenu1' : d = {type: window.softgames.eventSelectMainMenu};	break;
         case 'setSound' : d = {type: window.softgames.eventSound, state: data.state};	break;
 		}
 		
